@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form HTML</title>
+</head>
+
+<body>
+    <form action="" method="POST">
+        <fieldset>
+            <legend>Form Biodata</legend>
+            <center>
+                <h2>Form Biodata Mahasiswa</h2>
+            </center>
+            <table>
+                <tr>
+                    <td><label for="nim">NIM</label></td>
+                    <td><input required type="text" name="nim" id="nim" placeholder="Input NIM" /></td>
+                </tr>
+                <tr>
+                    <td><label for="nama">NAMA</label></td>
+                    <td><input required type="text" name="nama" id="nama" placeholder="Input Nama" /></td>
+                </tr>
+                <tr>
+                    <td><label for="jk">JENIS KELAMIN</label></td>
+                    <td>
+                        <input type="radio" id="pria" name="jk" value="HTML">
+                        <label for="pria">Laki-Laki</label>
+                        <input type="radio" id="wanita" name="jk" value="wanita">
+                        <label for="wanita">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="jurusan">JURUSAN</label></td>
+                    <td><select name="jurusan">
+                        <option value="">Pilih...</option>
+                        <option value="S1ILKOM">S1 ILMU KOMPUTER</option>
+                        <option value="S1DKV">S1 DKV</option>
+                        <option value="S1MANAJEMEN">S1 MANAJEMEN</option>
+                        <option value="S1GIZI">S1 GIZI</option>
+                        <option value="S1RPL">S1 RPL</option>
+                        <option value="D3SI">D3 SI</option>                    
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="hobi">HOBI</label></td>
+                    <td>
+                        <input type="checkbox" id="komputer" name="komputer" value="Komputer">
+                        <label for="komputer">Komputer</label>
+                        <input type="checkbox" id="musik" name="musik" value="Musik">
+                        <label for="musik">Musik</label>
+                        <input type="checkbox" id="olahraga" name="olahraga" value="Olahraga">
+                        <label for="olahraga">Olahraga</label>
+                        <input type="checkbox" id="travelling" name="travelling" value="Travelling">
+                        <label for="travelling">Travelling</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="catatan">CATATAN</label></td>
+                    <td><textarea required name="catatan" id="ca1atan" cols="50" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="foto">FOTO</label></td>
+                    <td><input type="file" value="upload gambar" /></td>
+                </tr>
+                <tr>
+                    <td><label for="email">EMAIL</label></td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">SANDI LOGIN</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass2">ULANGI SANDI LOGIN</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Sinpan">
+                        <input type="reset" value="Batal">
+                        <input type="submit" value="Peringatan">
+                    </td>
+                </tr>
+            </table>
+    </form>
+    </fieldset>
+    </form>
+</body>
+
+</html>
